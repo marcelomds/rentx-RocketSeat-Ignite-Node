@@ -1,4 +1,3 @@
-import { createConnection } from "typeorm/browser";
+import { createConnection } from "typeorm";
 
-console.log('TESSSSSSTEEEEEEEEEEEEEEEEEEEEEEEEEEESSS');
 createConnection();
