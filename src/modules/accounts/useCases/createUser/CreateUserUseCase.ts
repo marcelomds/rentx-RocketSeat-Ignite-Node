@@ -4,6 +4,7 @@ import { hash } from "bcrypt";
 import {IUsersRepository} from "../../repositories/IUsersRepository";
 import {ICreateUserDTO} from "../../dtos/ICreateUserDTO";
 import {AppError} from "../../../../errors/AppError";
+import {UsersRepositoryInMemory} from "../../repositories/in-memory/UsersRepositryInMemory";
 
 @injectable()
 class CreateUserUseCase {
