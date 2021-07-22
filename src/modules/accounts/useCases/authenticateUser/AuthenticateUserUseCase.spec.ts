@@ -3,7 +3,7 @@ import {AuthenticateUserUseCase} from "./AuthenticateUserUseCase";
 import {CreateUserUseCase} from "../createUser/CreateUserUseCase";
 import {ICreateUserDTO} from "../../dtos/ICreateUserDTO";
 import {UsersRepositoryInMemory} from "../../repositories/in-memory/UsersRepositryInMemory";
-import {AppError} from "../../../../errors/AppError";
+import { AppError } from "@errors/AppError";
 
 
 let authenticateUserUseCase: AuthenticateUserUseCase;
