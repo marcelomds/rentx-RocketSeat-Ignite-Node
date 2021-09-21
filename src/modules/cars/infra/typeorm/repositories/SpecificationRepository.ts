@@ -3,7 +3,7 @@ import {Specification} from "../entities/Specification";
 import {getRepository, Repository} from "typeorm";
 
 
-class SpecificationRepository implements ISpecificationRepository{
+class SpecificationsRepository implements ISpecificationRepository{
     private repository: Repository<Specification>
 
     constructor() {
@@ -37,4 +37,4 @@ class SpecificationRepository implements ISpecificationRepository{
 
 }
 
-export { SpecificationRepository };
+export { SpecificationsRepository };
